@@ -124,6 +124,7 @@ angular.module('analytics.mixpanel', [])
                     set_once: callMixpanelFn('people.set_once'),
                     increment: callMixpanelFn('people.increment'),
                     append: callMixpanelFn('people.append'),
+                    union: callMixpanelFn('people.union'),
                     track_charge: callMixpanelFn('people.track_charge'),
                     clear_charges: callMixpanelFn('people.clear_charges'),
                     delete_user: callMixpanelFn('people.delete_user')
